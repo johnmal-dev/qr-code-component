@@ -1,4 +1,73 @@
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/outfit/v4/QGYyz_MVcBeNP4NjuGObqx1XmO1I4TC1C4E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/outfit/v4/QGYyz_MVcBeNP4NjuGObqx1XmO1I4deyC4E.ttf) format('truetype');
+}
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+  background-color: #d6e2f0;
+}
+body .container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .container .card {
+  background-color: #ffffff;
+  width: 86%;
+  max-width: 325px;
+  height: 500px;
+  border-radius: 1.2rem;
+  padding: 1rem;
+}
+@media (min-width: 1400px) {
+  body .container .card {
+    max-height: 505px;
+  }
+}
+body .container .card .img-container {
+  width: 100%;
+}
+body .container .card .img-container img {
+  width: 100%;
+  border-radius: .6rem;
+}
+body .container .card .text {
+  text-align: center;
+}
+body .container .card .text h1 {
+  color: #1f3251;
+  font-size: 1.4rem;
+  margin-top: 1.2rem;
+}
+body .container .card .text p {
+  color: #7b879d;
+  font-size: .98rem;
+  margin-top: 1rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
 }
