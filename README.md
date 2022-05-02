@@ -67,11 +67,6 @@ body {
 @dark-blue: hsl(218, 44%, 22%);
 ```
 
-
-### Continued development
-
-An example video used SCSS CSS preprocessor. Without a CSS preprocessor, my code was less organized. For my next project, I will use the Less CSS extension.
-
 ### Useful resources
 
 - [PureRef](https://www.pureref.com/) - This helped me compare my work to the provided example images. I really liked this app and will use it going forward.
